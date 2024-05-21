@@ -2,5 +2,5 @@
 n1 = int(input('Digite um número: '))
 d = n1 * 2
 t = n1 * 3
-r = n1 ** 2
-print(f'O dobro é {d:=^8} \nO triplo é {t:=^8} \nA raiz quadrada é {r:=^8}')
+r = n1 ** (1/2)
+print(f'O dobro é {d:=^8} \nO triplo é {t:=^8} \nA raiz quadrada é {r:=^8.2f}')
