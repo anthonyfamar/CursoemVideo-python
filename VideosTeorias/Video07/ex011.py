@@ -2,6 +2,6 @@
 b = float(input('Digite a largura da parede em metros: '))
 h = float(input('Digite a altura da parede em metros: '))
 a = b * h
-print(f'A área total da parede é: {a} m\u00B2')
+print(f'A área total da parede é: {a:.2f} m\u00B2')
 tinta = a / 2
-print(f'A quantidade de tinta necessária para pintar é: {tinta} litros')
+print(f'A quantidade de tinta necessária para pintar é: {tinta:.2f} litros')
