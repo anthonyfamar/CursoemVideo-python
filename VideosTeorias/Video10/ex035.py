@@ -1,4 +1,7 @@
 #Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
+print('=-'*20)
+print('Analisador de triângulos')
+print('-='*20)
 a = float(input('Comprimento da primeira reta: '))
 b = float(input('Comprimento da segunda reta: '))
 c = float(input('Comprimento da terceira reta: '))
