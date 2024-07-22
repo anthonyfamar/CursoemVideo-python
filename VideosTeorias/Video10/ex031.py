@@ -4,4 +4,4 @@ if km <= 200:
     total = km * 0.50
 else:
     total = km * 0.45
-print(f'O valor para sua viagem de {km}km ficou R${total:.2f}')
+print(f'O valor para sua viagem de {km}km ficou \033[4;32mR${total:.2f}\033[m')
