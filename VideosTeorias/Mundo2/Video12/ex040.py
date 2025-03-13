@@ -9,7 +9,7 @@ media = (nota1 + nota2)/2
 
 if media < 5:
     print(f"REPROVADO! Sua média é {media:.2f}")
-elif 5 < media <6.9:
+elif 5 <= media <6.9:
     print(f"RECUPERAÇÃO! Sua média é {media:.2f}")
 else:
     print(f"APROVADO! Sua média é {media:.2f}")
